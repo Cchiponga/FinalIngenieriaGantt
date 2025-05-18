@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="planExamenFinal_Leandro_FogliaPinto" company="" webLink="http://" view-date="2024-12-09" view-index="0" gantt-divider-location="661" resource-divider-location="300" version="3.3.3312" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="277" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="20" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="124" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <field id="tpd7" name="Progreso" width="224" order="3"/>
+        <option id="taskLabelUp" value="resources"/>
+        <option id="taskLabelDown" value="length"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#cccccc #000000 #ff6600]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Ninguna">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2024" month="12" date="25" type="HOLIDAY" color="#cccccc"/>
+        <date year="2025" month="1" date="1" type="HOLIDAY" color="#cccccc"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="3c500c255b8547f897da87bf49383465" name="Proyecto" meeting="false" start="2024-11-28" duration="36" complete="42" expand="true">
+            <task id="1" uid="e23fe046374a4717a630465ad4e5f2e1" name="Analisis" meeting="false" start="2024-11-28" duration="36" complete="86" expand="true">
+                <task id="41" uid="cceeb883e8714f41af912e6cd8dcbd27" name="CU Log-In" meeting="false" start="2024-11-28" duration="3" complete="100" expand="true">
+                    <notes><![CDATA[Dendiendo el usuario logueado va a poder visualizar ciertas funciones del programa o no]]></notes>
+                    <depend id="8" type="2" difference="0" hardness="Strong"/>
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                    <depend id="42" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="8" uid="6e86b681832e42c8af39724c078de642" name="CU ABM pedidos de abastecimiento" meeting="false" start="2024-12-03" duration="3" complete="100" expand="true">
+                    <notes><![CDATA[Productos con sus respectivas cantidades/ ROL TIENDA]]></notes>
+                    <depend id="9" type="2" difference="0" hardness="Strong"/>
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="10" uid="b74e61159c0744f9b9c3b2de32629f2c" name="CU recepciones de pedidos" meeting="false" start="2024-12-03" duration="4" complete="100" expand="true">
+                    <notes><![CDATA[ROL TIENDA
+]]></notes>
+                    <depend id="12" type="2" difference="0" hardness="Strong"/>
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="9" uid="15260cc4a5e14f2f9db590622bae7131" name="CU ABM pedidos a fabricantes" meeting="false" start="2024-12-06" duration="3" complete="100" expand="true">
+                    <notes><![CDATA[Rol Encargado de Deposito]]></notes>
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                    <depend id="17" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="11" uid="a1970d352f9d4cc49f881019c591d098" name="CU ABM entregas a tiendas" meeting="false" start="2024-12-11" duration="3" complete="100" expand="true">
+                    <notes><![CDATA[Rol Encargado de Deposito/ provisión a los pedidos de abastecimiento]]></notes>
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                    <depend id="18" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="12" uid="81db12313c854a1d89c6a5aae331acf6" name="CU Listado de stock" meeting="false" start="2024-12-09" duration="3" complete="100" expand="true">
+                    <notes><![CDATA[Rol Encargado de Deposito
+]]></notes>
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="13" uid="6381ec3a462a41a19f8f7497db503db3" name="CU Visualización de Pedidos" meeting="false" start="2024-12-12" duration="4" complete="62" expand="true">
+                    <notes><![CDATA[Rol Supervisor/ De fabricantes y  tiendas]]></notes>
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="14" uid="75163fe346a848efabd3547eb393e543" name="CU Emisión de Reportes" meeting="false" start="2024-12-16" duration="1" complete="100" expand="true">
+                    <notes><![CDATA[Rol Supervisor
+]]></notes>
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                    <depend id="22" type="2" difference="0" hardness="Strong"/>
+                    <depend id="43" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="37" uid="fc188dacddb4436099352c1e5ee6de27" name="Manuales de usuario" meeting="false" start="2025-01-17" duration="2" complete="0" expand="true">
+                    <depend id="40" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="2" uid="047544be48b949b69f55493eae376fc5" name="Desarrollo" meeting="false" start="2024-12-03" duration="31" complete="23" expand="true">
+                <task id="42" uid="7edd7c0a32ec4aaea4e890f7d1ab3ab0" name="Log-In" meeting="false" start="2024-12-03" duration="7" complete="100" expand="true">
+                    <notes><![CDATA[Tener en cuenta el usuario logueado ya que disponen de diferentes permisos
+]]></notes>
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                    <depend id="43" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="15" uid="0c9043360fcb4e789ebc181a28fa79d2" name="ABM pedidos de abastecimiento" meeting="false" start="2024-12-12" duration="7" complete="37" expand="true">
+                    <depend id="17" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="16" uid="c33b538865fa451fa22cf8746b2a5fb5" name="recepciones de pedidos" meeting="false" start="2024-12-12" duration="7" complete="31" expand="true">
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    <depend id="23" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="17" uid="357b2a34d23a41ac9e875684e26c0a07" name="ABM pedidos a fabricantes" meeting="false" start="2024-12-23" duration="7" complete="0" expand="true">
+                    <depend id="18" type="2" difference="0" hardness="Strong"/>
+                    <depend id="24" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="18" uid="6c0254acd6e8410bbe819ee6d22abcf0" name="ABM entregas a tiendas" meeting="false" start="2025-01-03" duration="7" complete="0" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="19" uid="e6dbe63d8e6f483bb3feae66e4acdb0f" name="listado de stock" meeting="false" start="2024-12-23" duration="6" complete="0" expand="true">
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                    <depend id="26" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="20" uid="a7b0b8a555d84ec386ef879f175ee069" name="Visualización de pedidos" meeting="false" start="2025-01-02" duration="7" complete="0" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="21" uid="ee9af0f59bca45d788d7ae2b9226caec" name="Emisión de Reportes" meeting="false" start="2025-01-14" duration="2" complete="0" expand="true">
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="34" uid="c075c4a757bd4a8db14231e255bfda79" name="Entorno implementado para testing y certificación" meeting="true" start="2025-01-17" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[30% del pago]]></notes>
+                </task>
+            </task>
+            <task id="3" uid="83a40fc970224c178bd97f98e8c7be6e" name="Testing" meeting="false" start="2024-12-17" duration="21" complete="4" expand="true">
+                <task id="43" uid="1b60c8a0f95a44f7b5ccf5a5f87b670e" name="Log-In test" meeting="false" start="2024-12-17" duration="1" complete="38" expand="true">
+                    <depend id="22" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="22" uid="ee77653207674cb993a1c78b45a54e3e" name="ABM pedidos de abastecimiento test" meeting="false" start="2024-12-18" duration="1" complete="0" expand="true">
+                    <depend id="24" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="23" uid="ed3da74911f24267949787d4b4da1060" name="recepciones de pedidos test" meeting="false" start="2024-12-23" duration="1" complete="0" expand="true">
+                    <depend id="26" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="24" uid="49a0e57f356a4e1fbbc3f93b4db55ba1" name="ABM pedidos a fabricantes test" meeting="false" start="2025-01-03" duration="1" complete="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" uid="5f081d5f7ff645cbbccf999d4a231391" name="ABM entrega a tiendas test" meeting="false" start="2025-01-14" duration="1" complete="0" expand="true">
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="26" uid="64f8ee3a5d2e4b8f9270e113636b8b05" name="listado de stock test" meeting="false" start="2025-01-02" duration="1" complete="0" expand="true">
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="27" uid="1410f817d1e84526b8706df3b5315ab2" name="Visualización de pedidos test" meeting="false" start="2025-01-13" duration="1" complete="0" expand="true">
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="28" uid="941d2b7881294a40b47d15190596162b" name="Emisión de Reportes test" meeting="false" start="2025-01-16" duration="1" complete="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="4" uid="6396ebde0e4e46fb8a7176e303b976c6" name="Técnico" meeting="false" start="2024-11-28" duration="36" complete="60" expand="true">
+                <task id="5" uid="537cb5fb7ef540d782bed116a91c5dc3" name="Alquiler de hosting" meeting="false" start="2024-11-28" duration="1" complete="100" expand="true">
+                    <depend id="6" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="6" uid="9ae6a48881e44cdeb952db86d7f4ebc6" name="Instalar Servidor Tomcat" meeting="false" start="2024-11-29" duration="1" complete="100" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="7" uid="e12d6a506c2f4e85bd2f98b4488a9145" name="Instalar base de datos MySQL" meeting="false" start="2024-12-02" duration="1" complete="100" expand="true">
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="33" uid="e0c10f9b24cc48418b61f65326af6632" name="Infraestructura disponible" meeting="true" start="2024-12-03" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[15% del pago
+]]></notes>
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="32" uid="e16a482a8d7b4e5cae2b1114d92bc587" name="Despliegue" meeting="false" start="2025-01-17" duration="2" complete="0" expand="true">
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="35" uid="00608c28f87349399d5587fb1bb2510e" name="Programa operativo" color="#000000" meeting="true" start="2025-01-21" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[30% del pago
+]]></notes>
+                    <depend id="40" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="29" uid="b2e589c054e043269c86b1c20cf6909d" name="Entrega plan del trabajo" meeting="true" start="2024-11-28" duration="0" complete="0" expand="true">
+                <notes><![CDATA[pago anticipado de un 5%]]></notes>
+            </task>
+            <task id="40" uid="fc09789622ea4753aa403c29141c29d8" name="Entrega manuales de usuario y cierre del proyecto" color="#000000" meeting="true" start="2025-01-21" duration="0" complete="0" expand="true">
+                <notes><![CDATA[20% del pago]]></notes>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Líder de Proyecto" function="1" contacts="" phone=""/>
+        <resource id="1" name="Analista Funcional Senior" function="2" contacts="" phone=""/>
+        <resource id="2" name="Analista Funcional Pasante" function="3" contacts="" phone=""/>
+        <resource id="3" name="Desarrollador Senior" function="4" contacts="" phone=""/>
+        <resource id="4" name="Desarrollador Junior" function="5" contacts="" phone=""/>
+        <resource id="5" name="Soporte Técnico Senior" function="6" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="29" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="4" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="4" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="5" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="5" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="5" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="5" function="6" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Líder de Proyecto"/>
+        <role id="2" name="Analista Funcional Senior"/>
+        <role id="3" name="Analista Funcional Pasante"/>
+        <role id="4" name="Desarrollador Senior"/>
+        <role id="5" name="Desarrollador Junior"/>
+        <role id="6" name="Soporte Técnico Senior"/>
+    </roles>
+</project>
